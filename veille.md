@@ -98,15 +98,25 @@
 - ## Définition d'un ETL et exemples.
 
 - ## Une base de données relationnelle.
-Une base de données relationnelle est un type de base de données où les données sont liées à d'autres informations au sein des bases de données. Les bases de données relationnelles sont composées d’un ensemble de tables qui peuvent être accessibles et reconstruites de différentes manières, sans qu'il soit nécessaire de réarranger ces tables de quelque façon que ce soit. [https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html ]
+    Une base de données relationnelle est un type de base de données où les données sont liées à d'autres informations au sein des bases de données. Les bases de données relationnelles sont composées d’un ensemble de tables qui peuvent être accessibles et reconstruites de différentes manières, sans qu'il soit nécessaire de réarranger ces tables de quelque façon que ce soit. [https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html ]
 - ## Power BI et Tableau.
+    Microsoft Power BI est une solution d'analyse de données de Microsoft. Il permet de créer des visualisations de données personnalisées et interactives avec une interface suffisamment simple pour que les utilisateurs finaux créent leurs propres rapports et tableaux de bord.
 
+    Tableau Software est une société de logiciel américaine, partie du groupe Salesforce, dont le siège se trouve à Seattle. Elle conçoit une famille de produits orientés visualisation de données.
 
 # 3 Apprentissage automatique
 - ## La science des données.
+    La science des données est l'étude de l’extraction automatisée de connaissance à partir de grands ensembles de données1,2.
+
+    Plus précisément, la science des données est un domaine interdisciplinaire qui utilise des méthodes, des processus, des algorithmes et des systèmes scientifiques pour extraire des connaissances et des idées à partir de nombreuses données structurées ou non . Elle est souvent associée aux données massives et à l'analyse des données.
 - ## L’apprentissage automatique.
+    est un champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d'« apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune. Plus largement, il concerne la conception, l'analyse, l'optimisation, le développement et l'implémentation de telles méthodes.
+
 - ## L’apprentissage profond.
+    est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFAM (Google, Apple, Facebook, Amazon, Microsoft).
+
 - ## Deep vs Machine Learning (dans quel cas, on utilise l’un ou l’autre).
+    
 - ## La différence entre l'apprentissage supervisé et l'apprentissage non supervisé.
 - ## La classification et ses métriques d'évaluation.
 - ## La régression et ses métriques d'évaluation.
