@@ -68,15 +68,20 @@
 - ## La loi Normale.
     #### Les lois normales ont une grande importance en statistiques. La courbe représentative de leur fonction de densité est appelée courbe de Gauss ou courbe en cloche du fait de sa forme. Elle possède un axe de symétrie en la moyenne ou la médiane (elles sont égales) et des intervalles remarquables (68% des observations sont comprises dans un intervalle de +/- un fois l'écart-type autour de la moyenne.). [Khan Academy, https://fr.khanacademy.org/math/be-6eme-secondaire2h2/xa29f433c00318f09:probabilites/xa29f433c00318f09:loi-binomiale/a/normal-distributions-review#:~:text=La%20fonction%20de%20densit%C3%A9%20de,et%20le%20point%20d'inflexion.]
 - ## Théorème Centrale Limite.
-    ####
+    #### Le théorème central limite établit la convergence en loi de la somme d'une suite de variables aléatoires vers la loi normale. Intuitivement, ce résultat affirme qu'une somme de variables aléatoires indépendantes et identiquement distribuées tend vers une variable aléatoire gaussienne.
 - ## Un test d'hypothèse.
-    ####
+    #### est une procédure de décision entre deux hypothèses. Il s'agit d'une démarche consistant à rejeter ou à ne pas rejeter une hypothèse statistique, appelée hypothèse nulle, en fonction d'un échantillon de données.
 - ## Chi-Square test.
-    ####
+    #### En statistique, le test du khi carré, aussi dit du khi-deux1, d’après sa désignation symbolique χ2, est un test statistique où la statistique de test suit une loi du χ2 sous l'hypothèse nulle.
+
+    Par exemple, il permet de tester l'adéquation d'une série de données à une famille de lois de probabilité ou de tester l'indépendance entre deux variables aléatoires.
 - ## ANOVA.
     #### L’analyse de la variance (ANOVA) peut déterminer si les moyennes de trois groupes ou plus sont différentes. ANOVA utilise des tests F pour tester statistiquement l’égalité des moyennes.[https://blog.minitab.com/fr/comprendre-lanalyse-de-la-variance-anova-et-le-test-f] 
 - ## Une valeur propre.
-    ####
+    #### L'ensemble des saturations des variables pour une composante constitue un vecteur propre. La valeur propre (ou "eigenvalue") est la somme des carrés de ces saturations. Elle représente la quantité de variance du nuage de points expliquée par cette composante.
+
+    Le rapport de la valeur propre au nombre de variables soumises à l'analyse donne le pourcentage de variance expliquée par la composante (taux d'inertie).
+    [psychometrie.jlroulin] http://psychometrie.jlroulin.fr/cours/aide_quizz.html?H33.html
 
 # 2 Outils et librairies
 
@@ -89,7 +94,11 @@
     #### Pandas : Pandas est une librairie python qui permet de manipuler facilement des données à analyser :manipuler des tableaux de données avec des étiquettes de variables (colonnes) et d'individus (lignes).ces tableaux sont appelés DataFrames, similaires aux dataframes sous R.on peut facilement lire et écrire ces dataframes à partir ou vers un fichier tabulé.on peut faciler tracer des graphes à partir de ces DataFrames grâce à matplotlib.Pour utiliser pandas : import pandas
 
     #### NumPy: 
-    
+    NumPy est une bibliothèque pour langage de programmation Python, destinée à manipuler des matrices ou tableaux multidimensionnels ainsi que des fonctions mathématiques opérant sur ces tableaux.
+
+    Plus précisément, cette bibliothèque logicielle libre et open source fournit de multiples fonctions permettant notamment de créer directement un tableau depuis un fichier ou au contraire de sauvegarder un tableau dans un fichier, et manipuler des vecteurs, matrices et polynômes.
+
+    NumPy est la base de SciPy, regroupement de bibliothèques Python autour du calcul scientifique.
 
 
 - ## Librairies R : dplyr, ggplot2, tidyr, tidyverse, Shiny, plotly, Caret.
@@ -116,7 +125,7 @@
     est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFAM (Google, Apple, Facebook, Amazon, Microsoft).
 
 - ## Deep vs Machine Learning (dans quel cas, on utilise l’un ou l’autre).
-    
+
 - ## La différence entre l'apprentissage supervisé et l'apprentissage non supervisé.
 - ## La classification et ses métriques d'évaluation.
 - ## La régression et ses métriques d'évaluation.
