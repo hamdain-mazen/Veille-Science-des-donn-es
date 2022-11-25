@@ -56,9 +56,17 @@
 - ## Descente de gradient.
     ####
 - ## Équation normale.
-    ####
+    #### En statistique, les équations normales sont des équations matricielles de la forme :
+
+    tAAx = tAb
+    où
+
+    A est une matrice de réels de dimensions n×p ;
+    tA est la matrice transposée de A ;
+    x est un vecteur réel inconnu de dimension p ;
+    b est un vecteur connu de dimension n.
 - ## La loi Normale.
-    ####
+    #### Les lois normales ont une grande importance en statistiques. La courbe représentative de leur fonction de densité est appelée courbe de Gauss ou courbe en cloche du fait de sa forme. Elle possède un axe de symétrie en la moyenne ou la médiane (elles sont égales) et des intervalles remarquables (68% des observations sont comprises dans un intervalle de +/- un fois l'écart-type autour de la moyenne.). [Khan Academy, https://fr.khanacademy.org/math/be-6eme-secondaire2h2/xa29f433c00318f09:probabilites/xa29f433c00318f09:loi-binomiale/a/normal-distributions-review#:~:text=La%20fonction%20de%20densit%C3%A9%20de,et%20le%20point%20d'inflexion.]
 - ## Théorème Centrale Limite.
     ####
 - ## Un test d'hypothèse.
@@ -78,6 +86,11 @@
 - ## Jupyter-notebook 
     #### Jupyter Notebook (anciennement IPython Notebooks) est un environnement de programmation interactif basé sur le Web permettant de créer des documents Jupyter Notebook. Le terme "notebook" peut faire référence à de nombreuses entités différentes, adaptées au contexte, telles que l'application web Jupyter, le serveur web Jupyter Python ou le format de document Jupyter.Un document Jupyter Notebook est un document JSON. Il suit un schéma contenant une liste ordonnée de cellules d'entrée/sortie. Celles-ci peuvent contenir du code, du texte (à l'aide de Markdown), des formules mathématiques, des graphiques et des médias interactifs. Ce document se termine généralement par l'extension ".ipynb".
 - ## Librairies Python : Pandas, NumPy, Seaborn, Matplotlib, Plotly, Scikit-Learn, StatsModels, nltk, Pycaret.
+    #### Pandas : Pandas est une librairie python qui permet de manipuler facilement des données à analyser :manipuler des tableaux de données avec des étiquettes de variables (colonnes) et d'individus (lignes).ces tableaux sont appelés DataFrames, similaires aux dataframes sous R.on peut facilement lire et écrire ces dataframes à partir ou vers un fichier tabulé.on peut faciler tracer des graphes à partir de ces DataFrames grâce à matplotlib.Pour utiliser pandas : import pandas
+
+    #### NumPy: 
+    
+
 
 - ## Librairies R : dplyr, ggplot2, tidyr, tidyverse, Shiny, plotly, Caret.
 
@@ -85,7 +98,7 @@
 - ## Définition d'un ETL et exemples.
 
 - ## Une base de données relationnelle.
-
+Une base de données relationnelle est un type de base de données où les données sont liées à d'autres informations au sein des bases de données. Les bases de données relationnelles sont composées d’un ensemble de tables qui peuvent être accessibles et reconstruites de différentes manières, sans qu'il soit nécessaire de réarranger ces tables de quelque façon que ce soit. [https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html ]
 - ## Power BI et Tableau.
 
 
@@ -124,7 +137,7 @@
 - #### Anaconda , Wikipedia 14/11/2022 https://fr.wikipedia.org/wiki/Anaconda_(distribution_Python)
 - #### Jupyter Notebook, Wikipedia 14/11/2022  https://fr.wikipedia.org/wiki/Jupyter
 
-- ####
+- #### Pandas , http://www.python-simple.com/python-pandas/panda-intro.php
 - ####
 - ####
 - ####
