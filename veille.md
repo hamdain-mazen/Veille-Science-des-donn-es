@@ -104,10 +104,76 @@
     #### Seaborn: 
     Seaborn est une bibliothèque permettant de créer des graphiques statistiques en Python. Elle est basée sur Matplotlib, et s'intègre avec les structures Pandas.[19]
 
+    #### Matplotlib 
+    Est une bibliothèque du langage de programmation Python destinée à tracer et visualiser des données sous forme de graphiques. Elle peut être combinée avec les bibliothèques python de calcul scientifique NumPy et SciPy.[20]
+
+    #### Plotly: 
+    est une bibliothèque open source qui peut être utilisée pour visualiser et comprendre les données simplement et facilement. Plotly prend en charge différents types de tracés tels que les graphiques linéaires, les nuages ​​de points, les histogrammes, les tracés de Cox, etc. https://stacklima.com/tutoriel-python-plotly/
+
+
+    #### Scikit-Learn : 
+    Scikit-learn est une bibliothèque libre Python destinée à l'apprentissage automatique. Elle est développée par de nombreux contributeurs notamment dans le monde académique par des instituts français d'enseignement supérieur et de recherche comme Inria.
+
+    https://fr.wikipedia.org/wiki/Scikit-learn
+
+    #### StatsModels:
+    est un package Python qui permet aux utilisateurs d'explorer des données, d'estimer des modèles statistiques et d'effectuer des tests statistiques.
+
+    https://en.wikipedia.org/wiki/Statsmodels
+
+    #### nltk: 
+    est une bibliothèque logicielle en Python permettant un traitement automatique des langues, développée par Steven Bird et Edward Loper du département d'informatique de l'université de Pennsylvanie. En plus de la bibliothèque, NLTK fournit des démonstrations graphiques, des données-échantillon, des tutoriels, ainsi que la documentation de l'interface de programmation (API).
+
+    https://fr.wikipedia.org/wiki/Natural_Language_Toolkit
+
+    #### Pycaret:
+    PyCaret est une bibliothèque open source à faible code en python conçue pour automatiser le développement de modèles d’apprentissage automatique. Cette bibliothèque s’adresse notamment aux data scientists, aux ingénieurs Machine Learning, mais aussi aux apprentis souhaitant être plus productif et souhaitant obtenir plus rapidement des conclusions.
+
+    https://www.lebigdata.fr/pycaret-tout-savoir
+
+
+
+
+
+
+
 - ## Librairies R : dplyr, ggplot2, tidyr, tidyverse, Shiny, plotly, Caret.
+    #### dplyr : 
+    Traduit de l'anglais
+    L'un des packages de base du tidyverse dans le langage de programmation R, dplyr est principalement un ensemble de fonctions conçues pour permettre la manipulation de trames de données de manière intuitive et conviviale.
+
+    #### ggplot2
+    ggplot2 est une librairie R de visualisation de données développée par Hadley Wickham. La librairie est développée selon les principes développés par Leland Wilkinson dans son ouvrage The Grammar of Graphics.
+
+    #### tidyr
+    est un paquet de R faisant partie de l'écosystème Tidyverse qui permet d'organiser des données afin de faciliter la manipulation, la visualisation, ou la modélisation. Dans cet article, le terme organisation des données est une traduction limitative du correspondant tidy en anglais. Par organisation il faut en effet entendre plus en général les différentes actions qui permettent de préparer un ou plusieurs jeu de données : nettoyer les données, structurer les variables/colonnes, exclure les données manquantes, etc.[22]
+
+    #### Shiny 
+    est un package R qui permet la création simple d’applications web intéractives depuis R
+
+    #### plotly
+
+    Plotly R  est une graphing librarie interactive,  publication-qualité graphs.[23]
+    #### caret
+    C'est un package qui permet d'appeler de nombreuses méthodes de machine learning en offrant une interface unifiée et qui comporte des fonctions utilitaires diverses.
+
+    http://www.duclert.org/r-apprentissage/caret-R.php#:~:text=C'est%20un%20package%20qui,comporte%20des%20fonctions%20utilitaires%20diverses
+
 
 
 - ## Définition d'un ETL et exemples.
+    Un ETL est un outil qui collecte et traite (presque en temps réel) des données provenant de diverses sources pour ensuite les envoyer dans un espace de stockage (data lake, data warehouse) à des fins d’analyse et de Business Intelligence. 
+
+    Un outil d’ETL permet de gagner un temps considérable sur l’extraction et la préparation des données. Il permet également de réduire le risque d’erreur humaine. 
+
+    Aujourd’hui, avec les quantités de données qu’une entreprise génère, un ETL demeure essentiel pour mener à bien l’analyse de données business et prendre de meilleures décisions stratégiques au jour le jour (sans perdre trop de temps). 
+
+    Extract : extraction des données brutes depuis les différentes sources.
+
+    Transforme : nettoyage et formatage des données.
+
+    Load : transfert des données transformées vers un data warehouse / data lake.[21]
+
 
 - ## Une base de données relationnelle.
     Une base de données relationnelle est un type de base de données où les données sont liées à d'autres informations au sein des bases de données. Les bases de données relationnelles sont composées d’un ensemble de tables qui peuvent être accessibles et reconstruites de différentes manières, sans qu'il soit nécessaire de réarranger ces tables de quelque façon que ce soit. [https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html ]
@@ -171,7 +237,11 @@
 - #### [17] Anova,  https://blog.minitab.com/fr/comprendre-lanalyse-de-la-variance-anova-et-le-test-f
 - #### [18] psychometrie.jlroulin http://psychometrie.jlroulin.fr/cours/aide_quizz.html?H33.html
 - #### [19] datascientist, https://datascientest.com/seaborn
-- #### [20]
+- #### [20] https://fr.wikipedia.org/wiki/Matplotlib
+- #### [21] https://www.boryl.fr/glossaire/etl-extract-transform-load/#:~:text=L'ETL%20signifie%20l'Extraction,analyse%20et%20de%20Business%20Intelligence
+- #### [22] https://edutechwiki.unige.ch/fr/Organiser_des_donn%C3%A9es_avec_tidyr
+
+- #### [23] https://plotly.com/r/
 
 
 
