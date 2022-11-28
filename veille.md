@@ -210,14 +210,62 @@
 
 
 - ## Le clustering et ses métriques de décision du k optimal et de la qualité des clusters.
+
+    Le clustering sert principalement à segmenter ou classifier une base de données (par exemple trier des données clients type âge, profession exercée, lieu de résidence, etc., pour optimiser la gestion de la relation client) ou extraire des connaissances pour tenter de relever des sous-ensembles de données difficiles à identifier à l’œil nu.
+
+    méthodes hiérarchiques
+    Les méthodes de clustering de type hiérarchique sont différentes. Elles forment pas à pas des connexions entre individus (pour les méthodes de clustering hiérarchiques ascendantes), et utilisent une matrice de distances entre individus pour trouver le regroupement le plus proche d’un autre.
+
+
+    méthodes centroïdes
+    La méthode centroïde la plus classique est la méthode des k-moyennes. Elle ne nécessite qu’un seul choix de départ : k, le nombre de classes voulues.
+    On initialise l’algorithme avec k points au hasard parmi les n individus.
+
+    méthodes à densité
+    Les classes des méthodes à densité correspondent aux zones de densité relativement élevées, c’est-à-dire les zones où beaucoup de points sont proches par rapport à d’autres zones de l’espace R en dimension p (cf illustration).[25]
+
+
+
+
+
+
 - ## Traitement automatique du langage.
+    Le traitement automatique de la langue naturelle ou traitement automatique des langues, plus couramment appelé NLP est un domaine multidisciplinaire impliquant la linguistique, l'informatique et l'intelligence artificielle, qui vise à créer des outils de traitement de la langue naturelle pour diverses applications.[26]
+
+
+
 - ## La réduction de dimensions.
-- ## Le features engineering.
+    La réduction de la dimensionnalité (ou réduction de (la) dimension) est un processus étudié en mathématiques et en informatique, qui consiste à prendre des données dans un espace de grande dimension, et à les remplacer par des données dans un espace de plus petite dimension.[27]
+
+
+- ## La features engineering.
+
+    La Feature Engineering a un rôle important, notamment dans l’analyse des données. Sans données, les algorithmes d’exploitation et d’apprentissage automatique de données ne seront pas en mesure de fonctionner. En effet, il s’avère qu’en réalité, on ne pourrait réaliser que peu de choses si nous disposons que de très peu de caractéristiques afin de pouvoir représenter les objets de données, ou les banques de données, sous-jacents. De surcroît, la qualité des résultats de tous ces algorithmes est dépendante et est directement liée à la qualité des caractéristiques dont on peut disposer. Ainsi, il existe différentes formes de données comme la séquence, la série chronologique, le graphique, le texte ou encore l’image.[28]
+
+
 - ## La validation croisée, données d'entraînement, données de validation et données de test.
+    La validation croisée (« cross-validation ») est, en apprentissage automatique, une méthode d’estimation de fiabilité d’un modèle fondée sur une technique d’échantillonnage. [29]
+
+    En apprentissage automatique, une tâche courante est l'étude et la construction d'algorithmes qui peuvent apprendre et faire des prédictions sur les données1. De tels algorithmes fonctionnent en faisant des prédictions ou des décisions basées sur les données2, en construisant un modèle mathématique à partir des données d'entrée. Ces données d'entrée utilisées pour construire le modèle sont généralement divisées en plusieurs jeux de données . En particulier, trois jeux de données sont couramment utilisés à différentes étapes de la création du modèle : les jeux d'apprentissage, de validation et de test.[30] 
+
+
+
+
+
+
+
+
 
 # 4 Bonus : Aspect métiers
 
 - ## Définissez les métiers de Data Scientist, Data Analyst et Data Engineer. Donnez la différence entre les trois.
+    Pour résumer la différence entre le data analyst vs data scientist, le premier (data analyst) sera capable d’extraire de données brutes à partir d’un existant (Big Data) pour en tirer des conclusions stratégiques à haute valeur ajoutée et développer des outils stratégiques et décisionnels à très forte valeur ajoutée. L’autre sera un spécialiste de l’analyse brutes de données et saura mettre en place des modèles prédictifs mathématiques et statistiques qui constitueront un outil décisionnel très recherché.
+
+    Un Data Engineer est quelqu’un ayant un background technique en développement logiciel. Il peut être un Software Engineer qui s’est reconverti dans le Big Data.
+
+    Les Data Engineers vont mettre en place des systèmes de Big Data pour traiter ces dernières. Ils opteront pour des outils de stockage performants comme les bases de données NoSQL et se baseront sur  Hadoop, Spark, Map/Reduce pour traiter convenablement ces grands volumes de données. [31]
+
+
 
 # 5 Bibliographie: 
 - #### [1] Matrice , Wikipedia
@@ -250,6 +298,15 @@
 
 - #### [23] https://plotly.com/r/
 - #### [24] https://kobia.fr/regression-metrics-quelle-metrique-choisir/
+- #### [25] https://larevueia.fr/clustering-les-3-methodes-a-connaitre/
+- #### [26] https://fr.wikipedia.org/wiki/Traitement_automatique_des_langues
+- #### [27] https://fr.wikipedia.org/wiki/R%C3%A9duction_de_la_dimensionnalit%C3%A9#:~:text=La%20r%C3%A9duction%20de%20la%20dimensionnalit%C3%A9,espace%20de%20plus%20petite%20dimension.
+- #### [28] https://fr.wikipedia.org/wiki/Ing%C3%A9nierie_des_caract%C3%A9ristiques
+- #### [29] https://fr.wikipedia.org/wiki/Validation_crois%C3%A9e
+- #### [30] https://fr.wikipedia.org/wiki/Jeux_d'entrainement,_de_validation_et_de_test
+- #### [31] https://mrmint.fr/data-scientist-data-engineer-data-analyst-quelles-sont-les-differences-entre-ces-metiers
+
+
 
 
 
