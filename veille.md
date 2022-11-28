@@ -201,6 +201,13 @@
     la classification consiste aussi à trouver le lien entre une variable X et une variable aléatoire discrète suivant une loi multinomiale Y.
     ses métriques : Precision, recall et F1 Score
 - ## La régression et ses métriques d'évaluation.
+    En statistiques ou en apprentissage automatique, la régression linéaire est l'un des algorithmes les plus connus et utilisés. Simple et très efficace, il permet de résoudre des problématiques de tous genres pour de multiples entités et secteurs. On met en avant le contexte d'utilisation de l'algorithme de régression linéaire, son fonctionnement et les cas concrets où il peut être utilisé en Machine Learning. 
+    La MAE, ou erreur absolue moyenne, est la moyenne des valeurs absolues des erreurs.
+    La Root Mean Squared Error (RMSE) et la Mean Squared Error (MSE) sont les métriques de régression les plus courantes. Du fait de leurs propriétés de régularité, ce sont les métriques historiques pour optimiser les modèles de régression comme la régression linéaire. [24]
+
+
+
+
 
 - ## Le clustering et ses métriques de décision du k optimal et de la qualité des clusters.
 - ## Traitement automatique du langage.
@@ -242,6 +249,7 @@
 - #### [22] https://edutechwiki.unige.ch/fr/Organiser_des_donn%C3%A9es_avec_tidyr
 
 - #### [23] https://plotly.com/r/
+- #### [24] https://kobia.fr/regression-metrics-quelle-metrique-choisir/
 
 
 
