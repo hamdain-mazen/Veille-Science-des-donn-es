@@ -125,9 +125,12 @@
     est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFAM (Google, Apple, Facebook, Amazon, Microsoft).
 
 - ## Deep vs Machine Learning (dans quel cas, on utilise l’un ou l’autre).
-
+    Le Machine Learning est une IA capable de s'adapter automatiquement avec une interférence humaine minimale, et le Deep Learning est un sous-ensemble du Machine Learning utilisant les réseaux de neurones pour mimer le processus d'apprentissage du cerveau humain. [https://datascientest.com/quelle-difference-entre-le-machine-learning-et-deep-learning#:~:text=Le%20Machine%20Learning%20est%20une,d'apprentissage%20du%20cerveau%20humain.]
 - ## La différence entre l'apprentissage supervisé et l'apprentissage non supervisé.
+    Si votre base est étiquetée et que vous savez clairement dans quelles catégories vous souhaitez classer vos données, alors l'apprentissage supervisé est pour vous. Si vos données ne sont pas étiquetées et que le faire représenterait un coût trop important, alors optez pour l'apprentissage non supervisé. [https://experiences.microsoft.fr/articles/intelligence-artificielle/apprentissage-supervise-et-non-supervise-quelles-differences/#:~:text=Si%20votre%20base%20est%20%C3%A9tiquet%C3%A9e,pour%20l'apprentissage%20non%20supervis%C3%A9.]
 - ## La classification et ses métriques d'évaluation.
+    la classification consiste aussi à trouver le lien entre une variable X et une variable aléatoire discrète suivant une loi multinomiale Y.
+    ses métriques : Precision, recall et F1 Score
 - ## La régression et ses métriques d'évaluation.
 - ## Le clustering et ses métriques de décision du k optimal et de la qualité des clusters.
 - ## Traitement automatique du langage.
